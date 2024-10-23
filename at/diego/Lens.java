@@ -13,7 +13,7 @@ public class Lens {
         return manufacturer;
     }
 
-    public float getFocalLength() {
+    public float getBrennweite() {
         return brennweite;
     }
 
