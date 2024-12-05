@@ -1,4 +1,4 @@
-package at.Kamera;
+package at.at.diego.projects.Camera;
 
 import java.util.ArrayList;
 import java.util.List;

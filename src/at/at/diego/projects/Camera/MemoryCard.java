@@ -1,4 +1,4 @@
-package at.Kamera;
+package at.at.diego.projects.Camera;
 
 public class MemoryCard {
     private int capacity;

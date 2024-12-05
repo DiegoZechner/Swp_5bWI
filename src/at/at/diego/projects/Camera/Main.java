@@ -1,4 +1,4 @@
-package at.Kamera;
+package at.at.diego.projects.Camera;
 
 public class Main {
     public static void main(String[] args) {
