@@ -12,11 +12,11 @@ public class DataGenerator {
         return data;
     }
 
-    public static int[] generateDataArray(int size, int min, int max) {
+    public static int[] generateDataArrayWithMinMax(int size, int min, int max) {
         int[] data = new int[size];
         Random random = new Random();
         for (int i = 0; i < size; i++) {
-            data[i] = random.nextInt(max + 1 - min);
+            data[i] = random.nextInt(max + 1 - min) + min;
         }
         return data;
     }
