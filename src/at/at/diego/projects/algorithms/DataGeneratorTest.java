@@ -1,14 +1,20 @@
 package at.at.diego.projects.algorithms;
 
-import org.junit.jupiter.api.Assertions;
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 public class DataGeneratorTest {
     @Test
-    public void testGenerateDataArray() {
-        int[] randomNumbers = DataGenerator.generateDataArray(5);
-        Assertions.assertEquals(randomNumbers.length, 5);
-        System.out.println("Debuggerd");
+    void testGenerateDataArray() {
+        int[] data = DataGenerator.generateDataArray(10);
+        Assert.assertEquals(data.length, 10);
+    }
 
+    @Test
+    void testGenerateDataArray2() {
+        int[] data = DataGenerator.generateDataArray(5, 5, 10);
+        for (int i = 0; i == data.length; i++) {
+            Assert.assertEquals(3, data.length);
+        }
     }
 }
