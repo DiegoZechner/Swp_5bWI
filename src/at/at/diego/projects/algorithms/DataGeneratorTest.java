@@ -12,7 +12,7 @@ public class DataGeneratorTest {
 
     @Test
     void testGenerateDataArray2() {
-        int[] data = DataGenerator.generateDataArrayWithMinMax(5, 3, 10);
+        int[] data = DataGenerator.generateDataArray2(5, 3, 10);
         for (int i : data) {
             assertTrue(i >= 3 && i <= 10);
         }
